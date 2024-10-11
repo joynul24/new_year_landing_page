@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* shared styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .font-inter {
     font-family: "Inter", sans-serif;
@@ -9,11 +15,20 @@
     font-family: "Merriweather Sans", sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.btn-primary {
+    background-color: #FF0000;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
 }
+
+
+
+/* header styles */
 
 header {
     background-image: url("../images/Banner\ Image.png");
@@ -78,4 +93,41 @@ main {
     font-weight: 700;
     color: #070211;
     margin-bottom: 48px;
+}
+
+/* midnight party section styles */
+.midnight-party-section {
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: 120px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.midnight-party-content {
+    max-width: 700px;
+    color: #fff;
+}
+
+.midnight-party-content>h2 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.midnight-party-content>p{
+    color: #FFFFFFCC;
+    margin: 24px 0px 40px 0px;
+}
+
+#party-btn {
+    background-color: #fff;
+    color: black;
 }
