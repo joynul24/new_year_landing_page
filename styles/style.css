@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: overlay;
     border-radius: 16px;
 }
@@ -46,4 +46,36 @@ header {
 .banner-content>h2 {
     font-size: 72px;
     font-weight: 900;
+}
+
+/* main styles */
+main {
+    max-width: 1320px;
+    margin: 120px auto;
+}
+
+.discount-section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.discount-section>h2 {
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+}
+
+.discount-section>p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin: 48px 0px 16px 0px;
+}
+
+.discount-section>h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 48px;
 }
