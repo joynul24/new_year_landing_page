@@ -135,7 +135,7 @@ main {
 /* time line section styles */
 
 .date-line-container {
-    background-color:bisque;
+    background-color: bisque;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,4 +159,52 @@ main {
 .date-line-text-color {
     color: #FF0000;
     margin-right: 10px;
+}
+
+/* coming soon section styles */
+
+.coming-soon-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.coming-soon-text {
+    width: 400px;
+}
+
+.coming-soon-text .coming-soon-offer {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #FF0000;
+}
+
+.coming-soon-text>h3 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 15px 0px 20px 0px;
+}
+
+.coming-soon-text>p, .coming-soon-year>p {
+    color: #07021199;
+}
+
+.coming-soon-year {
+    width: 280px;
+    font-family: "Inter", sans-serif;
+}
+
+.coming-soon-year>h4 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 15px;
+}
+
+.coming-soon-profile{
+    border: 15px solid #FF0000;
+    border-radius: 100%;
+    padding: 20px;
+    display: flex;
 }
