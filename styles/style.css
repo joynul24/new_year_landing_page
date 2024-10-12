@@ -166,6 +166,7 @@ main {
 .coming-soon-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 120px;
 }
 
@@ -186,8 +187,10 @@ main {
     margin: 15px 0px 20px 0px;
 }
 
-.coming-soon-text>p, .coming-soon-year>p {
+.coming-soon-text>p,
+.coming-soon-year>p {
     color: #07021199;
+    line-height: 32px;
 }
 
 .coming-soon-year {
@@ -202,9 +205,42 @@ main {
     margin-bottom: 15px;
 }
 
-.coming-soon-profile{
+.coming-soon-profile {
     border: 15px solid #FF0000;
     border-radius: 100%;
     padding: 20px;
     display: flex;
+}
+
+/* Holidays section styles */
+
+.holidays-section {
+    margin: 120px 0px;
+}
+
+.holiday-content {
+    max-width: 1068px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.holiday-content>h5 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.holiday-content>h3 {
+    font-size: 72px;
+    font-weight: 900;
+    margin: 16px 0px 28px 0px;
+}
+
+.holiday-content>p{
+    opacity: 70%;
+    line-height: 32px;
+}
+
+#holidays{
+    color: #FF0000;
 }
