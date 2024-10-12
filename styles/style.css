@@ -251,6 +251,7 @@ main {
     width: 1320px;
     height: 660px;
     position: relative;
+    margin: 65px 0px 165px 0px;
 }
 
 .red-table {
@@ -262,7 +263,7 @@ main {
     top: 66%;
 }
 
-.gift img{
+.gift img {
     width: 674px;
     position: absolute;
     z-index: 1;
@@ -286,4 +287,41 @@ main {
     display: flex;
     justify-content: space-between;
     position: relative;
+}
+
+/* porfolio images section styles */
+
+.images-content {
+    width: 890px;
+}
+
+.images-content>h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+     font-family: "Inter", sans-serif;
+}
+
+.images-content>h3 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0px 22px 0px;
+}
+
+.images-content>p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    opacity: 70%;
+     font-family: "Inter", sans-serif;
+}
+
+.portfolio-images {
+    margin: 50px 0px 120px 0px;
+}
+
+.images {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
 }
