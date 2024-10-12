@@ -122,7 +122,7 @@ main {
     font-weight: 900;
 }
 
-.midnight-party-content>p{
+.midnight-party-content>p {
     color: #FFFFFFCC;
     margin: 24px 0px 40px 0px;
 }
@@ -130,4 +130,33 @@ main {
 #party-btn {
     background-color: #fff;
     color: black;
+}
+
+/* time line section styles */
+
+.date-line-container {
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 350px;
+    border-radius: 16px;
+}
+
+.date-line-content>h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    width: 550px;
+    text-align: center;
+}
+
+.dateline-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.date-line-text-color {
+    color: #FF0000;
+    margin-right: 10px;
 }
