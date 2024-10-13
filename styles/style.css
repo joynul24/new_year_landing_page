@@ -379,3 +379,48 @@ main {
     cursor: pointer;
     border-radius: 0px 50px 50px 0px;
 }
+
+/* footer styles */
+
+footer {
+    background-color: #070211;
+    color: #fff;
+    padding: 120px 140px;
+}
+
+.foot-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-address>p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 50px 0px;
+}
+
+.foot-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-end>p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
